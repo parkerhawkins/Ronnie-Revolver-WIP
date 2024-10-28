@@ -1,0 +1,20 @@
+$FFD0-$FFF9 must be unused
+
+Highest bit of $0300-Update Load
+Second highest bit of $0300-Load Status Bar
+
+$0300 is the game  state
+#$00-Title
+#$01-Select
+#$02-Playing
+#$03-Pause
+#$04-Game over
+Have a State Load Function
+Sets highest bit of $0300
+Loads all data required for current state(pre-NMI)
+
+State dependent code-
+There can be overlap but for the most part keep functions for different states separate
+For example,
+(During NMI)
+If game state is within title only check for select input etc...

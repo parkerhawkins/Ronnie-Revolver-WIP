@@ -1,0 +1,15 @@
+(NMI Happens!!)
+Disable NMI
+If highest bit of $0300
+	StateChangeLoad function
+	Switch the bit back
+	Turn of PPU
+	Load Data
+	Restart NMI sequence
+Copy RAM to OAM
+
+If status bar present
+	Update status bar function
+Controller Input+Opposing input checks
+Update sound engine function
+*Run all state depedent code*
