@@ -1,0 +1,30 @@
+Important RAM
+00:Health
+01:Controller
+02:LastController
+03:0-2 3frame counter
+04:Gun-Direction
+05:Previous Gun-Direction
+06:Game Mode (0=normal, 1=endless)
+07:Gun Power Up
+08-09:Pointer for Data Decompression
+0A:Directions for Bullet
+0D:Shooting Cooldown
+0E:Walking animation
+0F: OAM Offset Counter
+10:Frame count for walking animations
+11:Pause Thing
+20-29:Score (Low-High) BCD
+30-33: Slime Status
+34-37: Slime hit cooldown
+38: Player hit cooldown
+E0-FF:Actual Temporary Addresses
+200-2FF OAM for Transfer
+	$0200-$0213:Cowboy
+	$0220-$0233:Hearts
+	$0240-$024F:Slimes
+	$0280-$028F:Bats
+	$02FC-$02FF:Player Bullet
+300-GameState
+301-PauseTimer
+500-55F Collision Bit Map
