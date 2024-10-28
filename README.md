@@ -4,7 +4,7 @@ You require an emulator to play the game. From your emulator open the file with 
 
 This was made entirely using 6502 assembly with the NESASM3 assembler.
 
-It is inspired by the stardew valley minigame, Journey of the Prairie King.
+This game is inspired by the stardew valley minigame, Journey of the Prairie King.
 
 Controls:
 
@@ -14,7 +14,7 @@ Controls:
   
   B to stand still (for aiming)
   
-  Start to begin the game and to reset it at the game over screen.
+  Start is used for pausing and resetting the game
 
 Future additions:
 
