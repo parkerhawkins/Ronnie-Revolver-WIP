@@ -6,8 +6,6 @@ This was made entirely using 6502 assembly with the NESASM3 assembler.
 
 It is inspired by the stardew valley minigame, Journey of the Prairie King.
 
-The file "makegame.bat" is for my personal use in rapid testing. It is unlikely your computer will have all the same paths.
-
 Controls:
 
   Directions go without saying.
